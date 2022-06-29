@@ -1,6 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
-  lintOnSave: false,
-  useEslint: false, 
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/projeto-bachata-buena/'
+    : '/'
 })
