@@ -1,18 +1,25 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <br>
+    <a target="__blank" href="https://www.instagram.com/bachatabuena"><img class="flyer" src="../assets/flyer.png" alt=""></a>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
+<style>
+  @media screen and (max-width:920px) {
+    .flyer {
+      width: 600px;
+    }
   }
-}
-</script>
+
+  @media screen and (max-width:650px) {
+
+    .home h1 {
+      font-size: 20px;
+      
+    }
+
+    .flyer {
+      width: 350px;
+    }
+  }
+</style>
