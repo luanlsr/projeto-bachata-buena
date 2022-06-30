@@ -1,38 +1,47 @@
 <template>
-    <div class="bailes">
-        <b-card
-            title=""
-            img-src="../assets/baile-neon.png"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 20rem;"
-            class="mb-2"
-        >
-        <h3>Baile Neon</h3>
+    <div >
+        <b-card 
+            border-variant="primary"
+            header-bg-variant="primary"
+            header-text-variant="white"
+            align="center">
+            <h1>Bailes</h1>
         </b-card>
-        <b-card
-            title=""
-            img-src="../assets/baile-glamour.png"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 20rem;"
-            class="mb-2"
-        >
-        <h3>Baile Glamour</h3>
-        </b-card>
-        <b-card
-            title=""
-            img-src="../assets/baile-santo-domingo.png"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 20rem;"
-            class="mb-2"
-        >
-        <h3>Baile Santo Domingo</h3>
-        </b-card>
+        <div class="bailes">
+            <b-card
+                title=""
+                img-src="../assets/baile-neon.png"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 20rem;"
+                class="mb-2"
+            >
+            <h3>Baile Neon</h3>
+            </b-card>
+            <b-card
+                title=""
+                img-src="../assets/baile-glamour.png"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 20rem;"
+                class="mb-2"
+            >
+            <h3>Baile Glamour</h3>
+            </b-card>
+            <b-card
+                title=""
+                img-src="../assets/baile-santo-domingo.png"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 20rem;"
+                class="mb-2"
+            >
+            <h3>Baile Santo Domingo</h3>
+            </b-card>
+        </div>
     </div>
 </template>
 

@@ -5,6 +5,7 @@ const PessoaDetalhe = () => import('../components/PessoaDetalhe.vue')
 const Mapa = () => import('../components/Mapa.vue')
 const HomeView = () => import('../views/HomeView.vue')
 const BailesApp = () => import('../components/BailesApp.vue')
+const AulasApp = () => import('../components/AulasApp.vue')
 const Casa = () => import('../components/Casa.vue')
 
 Vue.use(VueRouter)
@@ -40,6 +41,16 @@ const routes = [
     path: '/bailes',
     name: 'bailes',
     component: BailesApp,
+    props: true,
+    // children: [{
+    //   path: ':id',
+    //   component: PessoaDetalhe,
+    // }]
+  },
+  {
+    path: '/aulas',
+    name: 'aulas',
+    component: AulasApp,
     props: true,
     // children: [{
     //   path: ':id',

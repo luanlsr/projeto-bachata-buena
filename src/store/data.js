@@ -303,11 +303,67 @@ export const casas = [
     {
         fotoCasa: casa37,
     },
-
 ]
 
-// const phone = '5521970106538'
-// const nome = 'Luan'
+export const aulasSexta = [
+    {Professores: "Pedro Mariano", Estilo: "Bachata", "Horário": "19h"},
+    {Professores: "Luis Mujica", Estilo: "Salsa", "Horário": "20h"},
+]
 
-// export const zap = `https://api.whatsapp.com/send/?phone=55${phone}&app_absent=0&text=Ol%C3%A1%2C%20${nome}%2C%20tudo%20bem%3F&lang=pt-br`
+export const aulasSabado = [
+    {Professores: "Inácio", Estilo: "Bachata", "Horário": "9h"},
+    {Professores: "Hanser y Franklin", Estilo: "Salsa", "Horário": "10h"},
+    {Professores: "Phelipe y Fabiana | Anabela (Ladies)", Estilo: "Bachata | Bachata", "Horário": "11h"},
+    {Professores: "José", Estilo: "Salsa", "Horário": "13h30"},
+    {Professores: "Luis Mujica | Pedro", Estilo: "Bachata | Salsa", "Horário": "14h30"},
+    {Professores: "Vinícius", Estilo: "Salsa", "Horário": "15h30"},
+    {Professores: "Marco y Sara", Estilo: "Bachata", "Horário": "16h30"},
+    {Professores: "José", Estilo: "Salsa", "Horário": "17h30"},
+]
 
+export const aulasDomingo = [
+    {Professores: "Bárbara", Estilo: "Salsa", "Horário": "9h"},
+    {Professores: "Kleo y Débora | Rafael y Giovana", Estilo: "Bachata | Bachata", "Horário": "10h"},
+    {Professores: "Gaby y Pau", Estilo: "Salsa", "Horário": "11h"},
+    {Professores: "Erika | Lucas y Carla", Estilo: "Bachata | Bachata", "Horário": "13h30"},
+    {Professores: "Bianca", Estilo: "Salsa", "Horário": "14h30"},
+    {Professores: "Gaby y Pau", Estilo: "Bachata", "Horário": "15h30"},
+    {Professores: "Vinicius y Batuira", Estilo: "Bachata", "Horário": "16h30"},
+    {Professores: "Marco y Sara", Estilo: "Bachata", "Horário": "17h30"},
+]
+
+// SEXTA
+
+// 1 - Pedro Mariano/Bachata - 19h
+// 2 - Luis Mujica/Salsa - 20h 
+
+// Baile NEON - 22h às 3h 
+
+// SÁBADO 
+
+// 1 - Inácio/Bachata 🔹️ Letícia/Bachata - 9h 
+// 2 - Hanser y Franklin/Salsa - 10h 
+// 3 - Phelipe y Fabiana/Bachata 🔹️ Anabela/Bachata - 11h 
+
+// ALMOÇO - 12h às 13h30 
+
+// 4 - José/Salsa - 13h30 
+// 5 - Luis Mujica/Bachata 🔹️ Pedro/Salsa - 14h30
+// 6 - Vinícius/Salsa - 15h30 
+// 7 - Marco y Sara/Bachata - 16h30 
+// 8 - José/Salsa - 17h30 
+// Baile GLAMOUR - 22h às 3h 
+
+// DOMINGO 
+
+// 1 - Bárbara/Salsa - 9h 
+// 2 - kleo y Débora/Bachata 🔹️ Rafael y Giovana - 10h 
+// 3 - Gaby y Pau/Salsa - 11h 
+
+// ALMOÇO - 12h às 13h30 
+
+// 4 - Erika/Bachata🔹️ Lucas y Carla/Bachata - 13h30
+// 5 - Bianca/Salsa - 14h30 
+// 6 - Gaby y Pau/Bachata - 15h30 
+// 7 - Vinicius y Batuira/Bachata - 16h30
+// 8 - Marco y Sara/Bachata - 17h30

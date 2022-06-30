@@ -1,12 +1,15 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import {pessoas} from './data'
+import {pessoas, aulasSexta, aulasSabado, aulasDomingo} from './data'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
     pessoas,
+    aulasSexta,
+    aulasSabado,
+    aulasDomingo,
   },
   getters: {
   },

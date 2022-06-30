@@ -3,14 +3,19 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/pessoas">Pessoas</router-link> |
+      <router-link to="/aulas">Aulas</router-link> |
       <router-link to="/bailes">Bailes</router-link> |
       <router-link to="/mapa">Mapa</router-link> |
       <router-link to="/casa">Casa</router-link>
     </nav>
     <router-view/>
+    <iframe width="400" height="100" src="https://www.youtube-nocookie.com/embed/U-k7HEOyLRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </template>
-
+<script>
+export default {
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

@@ -1,21 +1,31 @@
 <template>
     <div>
-        <ul class="card-container">
-                <router-link class="cards" v-for="pessoa in pessoas" :key="pessoa.id" tag="li" :to="`/pessoas/${pessoa.id}`">
-                    <!-- <img class="foto" :src="pessoa.foto" alt="pessoa.nome">
-                    <h2>{{pessoa.nome}}</h2> -->
-                    <b-card
-                        :title="pessoa.nome"
-                        :img-src="pessoa.foto"
-                        img-alt="Image"
-                        img-top
-                        tag="article"
-                        style="max-width: 20rem;"
-                        class="mb-2"
-                    >
-                    </b-card>
-                </router-link>
-        </ul>
+        <b-card 
+            border-variant="primary"
+            header-bg-variant="primary"
+            header-text-variant="white"
+            align="center">
+            <h1>Pessoas</h1>
+        </b-card>
+        <div>
+            <ul class="card-container">
+                    <router-link class="cards" v-for="pessoa in pessoas" :key="pessoa.id" tag="li" :to="`/pessoas/${pessoa.id}`">
+                        <!-- <img class="foto" :src="pessoa.foto" alt="pessoa.nome">
+                        <h2>{{pessoa.nome}}</h2> -->
+                        <b-card
+                            :title="pessoa.nome"
+                            :img-src="pessoa.foto"
+                            img-alt="Image"
+                            img-top
+                            tag="article"
+                            style="max-width: 20rem;"
+                            class="mb-2"
+                        >
+                        </b-card>
+                    </router-link>
+            </ul>
+
+        </div>
     </div>
 </template>
 

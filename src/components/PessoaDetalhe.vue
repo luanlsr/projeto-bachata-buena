@@ -1,4 +1,12 @@
 <template>
+<div>
+    <b-card 
+            border-variant="primary"
+            header-bg-variant="primary"
+            header-text-variant="white"
+            align="center">
+            <h1>Detalhes {{pessoa.nome}} {{pessoa.sobrenome}}</h1>
+        </b-card>
     <div class="usuario-detalhe">
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
             <b-row no-gutters>
@@ -6,6 +14,7 @@
                 <b-card-img :src="pessoa.foto"></b-card-img>
             </b-col>
             <b-col md="6">
+                <br>
                 <h2>{{pessoa.nome}} {{pessoa.sobrenome}}</h2>
                 <b-card-text>
                     <h5>Quarto: {{pessoa.quarto}}</h5>
@@ -22,6 +31,7 @@
              <b-button @click="voltar" variant="primary">Voltar</b-button>
         </b-card>
     </div>
+</div>
 </template>
 
 <script>
