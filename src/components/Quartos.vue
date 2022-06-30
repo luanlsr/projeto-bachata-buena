@@ -5,22 +5,22 @@
             header-bg-variant="primary"
             header-text-variant="white"
             align="center">
-            <h1>Bachateros</h1>
+            <h1>Quartos</h1>
         </b-card>
         <div>
             <ul class="card-container">
-                    <router-link class="cards" v-for="pessoa in pessoas" :key="pessoa.id" tag="li" :to="`/pessoas/${pessoa.id}`">
+                    <router-link class="cards" v-for="quarto in quartos" :key="quarto.id" tag="li" :to="`/quartos/${quarto.id}`">
                         <!-- <img class="foto" :src="pessoa.foto" alt="pessoa.nome">
                         <h2>{{pessoa.nome}}</h2> -->
                         <b-card
-                            :title="pessoa.nome"
-                            :img-src="pessoa.foto"
+                            :title="quarto.nome"
                             img-alt="Image"
                             img-top
                             tag="article"
                             style="max-width: 20rem;"
-                            class="mb-2"
+                            class="mb-2 card"
                         >
+                        <img class="fotoQuarto" :src="quarto.fotoQuarto" alt="fotoQuarto">
                         </b-card>
                     </router-link>
             </ul>
@@ -32,10 +32,8 @@
 <script>
     export default {
         computed: {
-            pessoas(){
-                const a = this.$store.state.pessoas.sort((a, b) => (a.nome > b.nome) ? 1 : -1)
-                console.log(a.nome);
-                return a
+            quartos(){
+                return this.$store.state.quartos
             }
         }
     }
@@ -58,5 +56,10 @@
     .foto {
         width: 150px;
         border-radius: 50%;
+    }
+
+    .fotoQuarto {
+        height: 250px;
+        width: 250px;
     }
 </style>

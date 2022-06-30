@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 const PessoaApp = () => import('../components/PessoaApp.vue')
 const PessoaDetalhe = () => import('../components/PessoaDetalhe.vue')
+const Quartos = () => import('../components/Quartos.vue')
+const QuartoDetalhe = () => import('../components/QuartoDetalhe.vue')
 const Mapa = () => import('../components/Mapa.vue')
 const HomeView = () => import('../views/HomeView.vue')
 const BailesApp = () => import('../components/BailesApp.vue')
@@ -31,6 +33,16 @@ const routes = [
     path: '/pessoas',
     name: 'pessoas',
     component: PessoaApp,
+    props: true,
+    // children: [{
+    //   path: ':id',
+    //   component: PessoaDetalhe,
+    // }]
+  },
+  {
+    path: '/quartos',
+    name: 'quartos',
+    component: Quartos,
     props: true,
     // children: [{
     //   path: ':id',
@@ -71,6 +83,12 @@ const routes = [
     path: '/pessoas/:id',
     name: 'pessoaDetalhe',
     component: PessoaDetalhe,
+    props: true,
+  },
+  {
+    path: '/quartos/:id',
+    name: 'quartosDetalhe',
+    component: QuartoDetalhe,
     props: true,
   }
 ]

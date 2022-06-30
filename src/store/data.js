@@ -52,6 +52,14 @@ const casa35 = require('../assets/casa/35.jpeg')
 const casa36 = require('../assets/casa/36.jpeg')
 const casa37 = require('../assets/casa/37.jpeg')
 
+const fotoQuarto1 = require('../assets/casa/14.jpeg')
+const fotoQuarto2 = require('../assets/casa/17.jpeg')
+const fotoQuarto3 = require('../assets/casa/21.jpeg')
+const fotoQuarto4 = require('../assets/casa/28.jpeg')
+const fotoQuarto5 = require('../assets/casa/22.jpeg')
+const fotoQuarto6 = require('../assets/casa/25.jpeg')
+const fotoQuarto7 = require('../assets/casa/24.jpeg')
+
 
 export const pessoas = [
     {
@@ -61,7 +69,7 @@ export const pessoas = [
         telefone: '21970106538',
         foto: foto1,
         instagram: 'https://www.instagram.com/luan_ramalholsr/',
-        quarto: 1
+        quarto: 'Quarto Casal 2'
     },
     {
         id: 2,
@@ -70,7 +78,7 @@ export const pessoas = [
         telefone: '21999929568',
         foto: foto2,
         instagram: 'https://www.instagram.com/sigridgleise/',
-        quarto: 1
+        quarto: 'Quarto Solteiro 2'
     },
     {
         id: 3,
@@ -79,7 +87,7 @@ export const pessoas = [
         telefone: '21964319582',
         foto: foto3,
         instagram: 'https://www.instagram.com/paola.oli.rj/',
-        quarto: 1
+        quarto: 'Quarto Solteiro 2'
     },
     {
         id: 4,
@@ -88,7 +96,7 @@ export const pessoas = [
         telefone: '21997830996',
         foto: foto4,
         instagram: 'https://www.instagram.com/max_ximenes/',
-        quarto: 1
+        quarto: 'Quarto Casal 2'
     },
     {
         id: 5,
@@ -97,7 +105,7 @@ export const pessoas = [
         telefone: '21974477812',
         foto: foto5,
         instagram: 'https://www.instagram.com/rafaavicente/',
-        quarto: 1
+        quarto: 'Quarto Casal 3'
     },
     {
         id: 6,
@@ -106,7 +114,7 @@ export const pessoas = [
         telefone: '21987162401',
         foto: foto6,
         instagram: 'https://www.instagram.com/sara_corrales_242/',
-        quarto: 1
+        quarto: 'Quarto Casal 1'
     },
     {
         id: 7,
@@ -115,7 +123,7 @@ export const pessoas = [
         telefone: '21987808431',
         foto: foto7,
         instagram: 'https://www.instagram.com/lalac543/',
-        quarto: 1
+        quarto: 'Quarto Casal 1'
     },
     {
         id: 8,
@@ -124,7 +132,7 @@ export const pessoas = [
         telefone: '21981628260',
         foto: foto8,
         instagram: 'https://www.instagram.com/ingridiamancio/',
-        quarto: 1
+        quarto: 'Quarto Casal 5'
     },
     {
         id: 9,
@@ -133,7 +141,7 @@ export const pessoas = [
         telefone: '6192635966',
         foto: foto9,
         instagram: 'https://www.instagram.com/joelicebarbosa/',
-        quarto: 1
+        quarto: 'Quarto Solteiro 2'
     },
     {
         id: 10,
@@ -142,7 +150,7 @@ export const pessoas = [
         telefone: '21994886364',
         foto: foto10,
         instagram: 'https://www.instagram.com/ju_matias2/',
-        quarto: 1
+        quarto: 'Quarto Casal 5'
     },
     {
         id: 11,
@@ -151,7 +159,7 @@ export const pessoas = [
         telefone: '21973911261',
         foto: foto11,
         instagram: 'https://www.instagram.com/kayomendesdo/',
-        quarto: 1
+        quarto: 'Quarto Casal 4'
     },
     {
         id: 12,
@@ -160,7 +168,7 @@ export const pessoas = [
         telefone: '21975229205',
         foto: foto12,
         instagram: 'https://www.instagram.com/marco.chocolate/',
-        quarto: 1
+        quarto: 'Quarto Solteiro 1'
     },
     {
         id: 13,
@@ -169,7 +177,7 @@ export const pessoas = [
         telefone: '21991378118',
         foto: foto13,
         instagram: 'https://www.instagram.com/vanessaamaralcg/',
-        quarto: 1
+        quarto: 'Quarto Casal 3'
     },
     {
         id: 14,
@@ -178,7 +186,7 @@ export const pessoas = [
         telefone: '21997443527',
         foto: foto14,
         instagram: 'https://www.instagram.com/franroa14/',
-        quarto: 1
+        quarto: 'Quarto Casal 4'
     },
     {
         id: 15,
@@ -187,8 +195,18 @@ export const pessoas = [
         telefone: '22999057461',
         foto: foto15,
         instagram: 'https://www.instagram.com/emerson_dancer/',
-        quarto: 1
+        quarto: 'Quarto Solteiro 1'
     },
+]
+
+export const quartos = [
+    {id: 1, nome: 'Quarto Casal 1', fotoQuarto: fotoQuarto1 ,pessoas: ['Sara Corales', 'Laura Corales']},
+    {id: 2, nome: 'Quarto Casal 2', fotoQuarto: fotoQuarto2 ,pessoas: ['Luan Ramalho', 'Max Ximenes']},
+    {id: 3, nome: 'Quarto Casal 3', fotoQuarto: fotoQuarto3 ,pessoas: ['Rafa Vicente', 'Vanessa Amaral']},
+    {id: 4, nome: 'Quarto Casal 4', fotoQuarto: fotoQuarto4 ,pessoas: ['Kayo Mendes', 'Francisco']},
+    {id: 5, nome: 'Quarto Casal 5', fotoQuarto: fotoQuarto5 ,pessoas: ['Ingridi Amancio', 'Juliana Matias']},
+    {id: 6, nome: 'Quarto Solteiro 1', fotoQuarto: fotoQuarto6 ,pessoas: ['Marco Chocolate', 'Emerson Rodrigues']},
+    {id: 7, nome: 'Quarto Solteiro 2', fotoQuarto: fotoQuarto7 ,pessoas: ['Paola Cruz', 'Sigrid Gleise', 'Joelice Barbosa']},
 ]
 
 export const casas = [
