@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <br>
-    <a target="__blank" href="https://www.instagram.com/bachatabuena"><img class="flyer" width="800px" src="../assets/flyer.png" alt=""></a>
+    <a target="__blank" href="https://www.instagram.com/bachatabuena"><img class="flyer" width="600px" src="../assets/flyer.png" alt=""></a>
   </div>
 </template>
 <style>

@@ -33,6 +33,9 @@
         </div>
       </div>
     </nav>
+    <h1>WIFI</h1>
+    <h4>Rede: WSM-5G</h4>
+    <h4>Senha: 060221102305</h4>
     <router-view/>
     <iframe width="300" height="100" src="https://www.youtube-nocookie.com/embed/U-k7HEOyLRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>

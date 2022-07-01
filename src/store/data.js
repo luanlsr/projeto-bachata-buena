@@ -209,6 +209,7 @@ export const quartos = [
     {id: 7, nome: 'Quarto Solteiro 2', fotoQuarto: fotoQuarto7 ,pessoas: ['Paola Cruz', 'Sigrid Gleise', 'Joelice Barbosa']},
 ]
 
+
 export const casas = [
     {
         fotoCasa: casa1,
